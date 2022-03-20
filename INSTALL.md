@@ -6,6 +6,7 @@
 sudo apt install update-motd update-notifier-common git curl
 cd /opt
 sudo git clone https://github.com/constantinekg/ubuntu-checksoftwareupdates
+sudo chmod +x /opt/ubuntu-checksoftwareupdates/influxv1/checksoftwareupdates.py /opt/ubuntu-checksoftwareupdates/influxv2/checksoftwareupdates.py
 ```
 
 ## Для influxdb v 2
